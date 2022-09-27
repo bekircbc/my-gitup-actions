@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 
 const app = express();
-const port = 8324;
+const port = 1122;
 app.use(cors());
 app.use(express.json());
 
