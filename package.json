@@ -2,6 +2,7 @@
   "name": "my-gitup-actions",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/bekircbc/my-gitup-actions/issues"
   },
-  "homepage": "https://github.com/bekircbc/my-gitup-actions#readme"
+  "homepage": "https://github.com/bekircbc/my-gitup-actions#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
