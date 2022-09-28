@@ -11,7 +11,7 @@
         - name: Build and Push Docker Image
           uses: mr.smithers-excellent/docker-build-push@v4
           with:
-            image:DOCKER_USERNAME/DOCKER_REPOSITORY_NAME
+            image:DOCKER_USERNAME/DOCKER_TAG_NAME
             registry: docker.io
             username: ${{secrets.DOCKER_USERNAME}}
             password: ${{secrets.DOCKER_PASSWORD}}
